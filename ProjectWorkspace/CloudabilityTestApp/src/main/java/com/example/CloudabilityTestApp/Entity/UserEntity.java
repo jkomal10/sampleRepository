@@ -17,11 +17,9 @@ public class UserEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer userId;
 	
-
 	@Column(name = "varUsersName")
 	private String userName;
 	
-
 	@Column(name = "VarLanguage")
 	private String language;
 	
@@ -147,7 +145,5 @@ public class UserEntity {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-	
-	
-	
+		
 }
